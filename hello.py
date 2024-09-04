@@ -14,7 +14,7 @@ def index():
 	first_name = "John"
 	return render_template("index.html", first_name=first_name)
 
-# localhost:5000/user/John
+# localhost:5000/user/john
 @app.route("/user/<name>")
 
 def user(name):
